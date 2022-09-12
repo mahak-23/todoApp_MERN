@@ -16,7 +16,6 @@ app.use(express.json());
 
 //frontend--> request--> body --> json --> javascript convert }  --> express.json---> javascript object
 
-//mongo db url= mongodb+srv://test:test@cluster0.e3h0oy3.mongodb.net/?retryWrites=true&w=majority
 
 const mongo_url=process.env.MONGO_DB_URL;
 
